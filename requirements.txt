@@ -1,0 +1,2 @@
+# No third-party packages are required.
+# Python standard library: tkinter, sqlite3, csv, pathlib, datetime
