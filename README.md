@@ -116,39 +116,31 @@ This section showcases the graphical user interface (GUI) and important features
 
 Displays total expenditure, current-month expenditure, highest expense and total transaction count.
 
-![Main Dashboard](screenshots/dashboard.png)
+![Main Dashboard]<img width="1917" height="1042" alt="Screenshot 2026-11-01 224858" src="https://github.com/user-attachments/assets/9cd3feb2-6e6f-4493-afb4-82bec90d5eb4" />
 
 ### 2. Add Expense
 
 Allows users to enter expense details, including date, description, category and amount.
 
-![Add Expense](screenshots/add_expense.png)
+![Add Expense]<img width="1917" height="1037" alt="Screenshot 2026-11-01 225158" src="https://github.com/user-attachments/assets/37950693-8d28-4bad-ad48-8902ad8d898f" />
 
 ### 3. Expense History
 
 Displays recorded expenses with options to filter and delete selected records.
 
-![Expense History](screenshots/expense_history.png)
+![Expense History]<img width="1917" height="1038" alt="Screenshot 2026-11-01 225402" src="https://github.com/user-attachments/assets/436ae838-be1b-44af-a506-b57fa93fefb7" />
 
 ### 4. Expense Analysis
 
 Displays category-wise expenditure, percentage distribution and highest expenditure.
 
-![Expense Analysis](screenshots/analysis.png)
+![Expense Analysis]<img width="1915" height="1037" alt="Screenshot 2026-11-01 225511" src="https://github.com/user-attachments/assets/eaa96ab2-1174-42a2-be3d-0c1a91c73e71" />
 
 ### 5. Monthly Report
 
 Displays monthly financial summaries and detailed expense records.
 
-![Monthly Report](screenshots/monthly_report.png)
-
-### 6. Export CSV
-
-Demonstrates the exported expense records in CSV format.
-
-![Export CSV](screenshots/export_csv.png)
-
-**Note:** Add your actual application screenshots to the screenshots folder using the filenames shown above.
+![Monthly Report]<img width="1917" height="1008" alt="Screenshot 2026-11-01 225545" src="https://github.com/user-attachments/assets/22b180a5-067c-432b-a9ad-25004c98b1d0" />
 
 ## 📁 Project Structure
 
