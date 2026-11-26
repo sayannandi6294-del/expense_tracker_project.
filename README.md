@@ -1,11 +1,11 @@
-# Daily Expense Tracker – Python Project
+# 💰 Daily Expense Tracker – Python Project
 
-A complete desktop application for recording and analysing daily expenses.
+A complete desktop application built using Python and Tkinter for recording, managing, tracking, and analysing daily expenses.
 
-## Features
+## 🚀 Features
 
 - Add daily expenses
-- Select categories:
+- Select expense categories:
   - Food
   - Travel
   - Education
@@ -17,125 +17,218 @@ A complete desktop application for recording and analysing daily expenses.
 - Calculate total expenditure
 - Calculate category-wise expenditure
 - Display highest expenditure
-- Generate a simple monthly report
-- View expense history
+- Generate monthly expense reports
+- View complete expense history
 - Filter expenses by month
 - Delete selected expenses
-- Export expenses to CSV
-- Save monthly reports as TXT
+- Export expense records to CSV
+- Save monthly reports as TXT files
 - SQLite database for permanent local storage
-- Dashboard showing total expenditure, current-month expenditure, highest expense and transaction count
+- Interactive dashboard displaying:
+  - Total expenditure
+  - Current-month expenditure
+  - Highest expense
+  - Total transaction count
 
-## Requirements
+## 🛠️ Technologies Used
+
+- Python 3.9+
+- Tkinter (GUI)
+- SQLite3 (Database)
+- CSV (Data Export)
+- File Handling
+
+## 📋 Requirements
 
 - Python 3.9 or newer
-- Tkinter (normally included with standard Python on Windows)
-- No third-party Python packages are required.
+- Tkinter
+- SQLite3
 
-## How to run
+**No third-party Python packages are required.**
 
-1. Extract the project folder.
-2. Open Command Prompt / PowerShell in the project folder.
-3. Run:
+## ▶️ How to Run
 
-```text
+1. Download or clone the project repository.
+2. Extract the project folder.
+3. Open the project folder in VS Code.
+4. Open the terminal.
+5. Run the following command:
+
+```bash
 python expense_tracker.py
 ```
 
-The application automatically creates `expenses.db` in the same folder.
+The application automatically creates an `expenses.db` database file in the project folder.
 
-## How to use
+## 📖 How to Use
 
 ### 1. Add Expense
-Enter:
-- Date in `YYYY-MM-DD`
-- Description
-- Category
+
+Enter the following information:
+
+- Date in YYYY-MM-DD format
+- Expense description
+- Expense category
 - Amount in rupees
 
-Click **Add Expense**.
+Click the **Add Expense** button to save the record.
 
 ### 2. Expense History
-Use the month field to filter records, or click **Show All**.
 
-Select one or more records and click **Delete Selected** to remove them.
+- View all recorded expenses.
+- Filter records by month.
+- Click Show All to display all records.
+- Select records and click Delete Selected.
+- Click Export CSV to export expense records.
 
-Click **Export CSV** to save the selected month's data as a spreadsheet-compatible CSV file.
+### 3. Expense Analysis
 
-### 3. Analysis
-Enter a month such as `2026-09` and click **Analyse**.
+Enter a month in YYYY-MM format and click Analyse.
 
 The application displays:
+
 - Category-wise expenditure
 - Percentage share of each category
-- Highest expense of that month
+- Highest expense
 - Total monthly expenditure
 
 ### 4. Monthly Report
-Enter a month and click **Generate Report**.
 
-The report contains:
+Enter a month and click Generate Report.
+
+The monthly report includes:
+
 - Total expenditure
 - Number of transactions
 - Average expense
 - Highest expense
-- Category-wise expenditure and percentage
+- Category-wise expenditure
+- Percentage distribution
 - Detailed expense list
 
-Click **Save Report** to save it as a `.txt` file.
+Click **Save Report** to save the report as a TXT file.
 
-## Project structure
+## 📸 Screenshots
+
+This section showcases the graphical user interface (GUI) and important features of the Daily Expense Tracker application.
+
+### 1. Main Dashboard
+
+Displays total expenditure, current-month expenditure, highest expense and total transaction count.
+
+![Main Dashboard](screenshots/dashboard.png)
+
+### 2. Add Expense
+
+Allows users to enter expense details, including date, description, category and amount.
+
+![Add Expense](screenshots/add_expense.png)
+
+### 3. Expense History
+
+Displays recorded expenses with options to filter and delete selected records.
+
+![Expense History](screenshots/expense_history.png)
+
+### 4. Expense Analysis
+
+Displays category-wise expenditure, percentage distribution and highest expenditure.
+
+![Expense Analysis](screenshots/analysis.png)
+
+### 5. Monthly Report
+
+Displays monthly financial summaries and detailed expense records.
+
+![Monthly Report](screenshots/monthly_report.png)
+
+### 6. Export CSV
+
+Demonstrates the exported expense records in CSV format.
+
+![Export CSV](screenshots/export_csv.png)
+
+**Note:** Add your actual application screenshots to the screenshots folder using the filenames shown above.
+
+## 📁 Project Structure
 
 ```text
-expense_tracker_project/
+Daily_Expense_Tracker/
 │
 ├── expense_tracker.py
-└── README.md
+├── README.md
+│
+├── screenshots/
+│   ├── dashboard.png
+│   ├── add_expense.png
+│   ├── expense_history.png
+│   ├── analysis.png
+│   ├── monthly_report.png
+│   └── export_csv.png
+│
+└── expenses.db
 ```
 
-After first run, this is also created automatically:
+**Note:** The `expenses.db` file is automatically created when the application runs for the first time.
 
-```text
-expenses.db
-```
+## 🗄️ Database Design
 
-## Database design
+**Database:** SQLite
 
-Table: `expenses`
+**Table:** expenses
 
 | Field | Type | Description |
 |---|---|---|
-| id | INTEGER | Primary key |
+| id | INTEGER | Primary Key |
 | expense_date | TEXT | Date of expense |
 | description | TEXT | Expense description |
 | category | TEXT | Expense category |
 | amount | REAL | Expense amount |
 
-## Concepts demonstrated
+## 🧠 Concepts Demonstrated
 
-This project is suitable for a Python/college mini-project because it demonstrates:
+This project demonstrates practical implementation of:
 
-- Python functions and classes
-- Object-oriented programming
-- Tkinter GUI
-- SQLite database connectivity
-- CRUD operations
-- Input validation
-- SQL aggregation (`SUM`, `MAX`, `COUNT`)
-- Category-wise analysis
-- File handling
-- CSV export
-- Report generation
-- Exception handling
+- Python Functions and Classes
+- Object-Oriented Programming (OOP)
+- Tkinter GUI Development
+- SQLite Database Connectivity
+- CRUD Operations
+- Input Validation
+- SQL Aggregate Functions
+- Category-wise Data Analysis
+- File Handling
+- CSV Export
+- Monthly Report Generation
+- Exception Handling
 
-## Possible future improvements
+## 🔮 Future Improvements
 
-- Pie/bar charts using Matplotlib
-- User login
-- Budget limits and alerts
-- Search by description
-- PDF reports
-- Excel export
-- Backup/restore
-- Recurring expenses
-- Income vs expenditure analysis
+- Pie and Bar Charts using Matplotlib
+- User Login and Registration
+- Monthly Budget Limits and Alerts
+- Search Expenses by Description
+- PDF Report Generation
+- Excel Export
+- Database Backup and Restore
+- Recurring Expenses
+- Income vs Expenditure Analysis
+
+## 🎯 Project Objective
+
+The main objective of this project is to develop a simple and user-friendly desktop application that helps users manage their daily expenses, monitor spending habits, analyse monthly expenditure and maintain financial records efficiently.
+
+## 👨‍💻 Developer
+
+**Developed using Python**
+
+**Project Name:** Daily Expense Tracker
+
+**Category:** Python Desktop Application
+
+**Domain:** Personal Finance Management
+
+---
+
+⭐ If you find this project useful, consider giving it a star on GitHub!
+
