@@ -118,25 +118,31 @@ Displays total expenditure, current-month expenditure, highest expense and total
 
 ![Main Dashboard]<img width="1917" height="1042" alt="Screenshot 2026-11-01 224858" src="https://github.com/user-attachments/assets/9cd3feb2-6e6f-4493-afb4-82bec90d5eb4" />
 
-### 2. Add Expense
+### 2.Select Expense Categories
+
+Allows users to select from the following expense categories while adding a new expense.
+
+![Select Expense Categories]<img width="1917" height="1037" alt="Screenshot 2026-11-01 224940" src="https://github.com/user-attachments/assets/03d31aef-0651-4204-bdf3-2376ad7a6742" />
+
+### 3. Add Expense
 
 Allows users to enter expense details, including date, description, category and amount.
 
 ![Add Expense]<img width="1917" height="1037" alt="Screenshot 2026-11-01 225158" src="https://github.com/user-attachments/assets/37950693-8d28-4bad-ad48-8902ad8d898f" />
 
-### 3. Expense History
+### 4. Expense History
 
 Displays recorded expenses with options to filter and delete selected records.
 
 ![Expense History]<img width="1917" height="1038" alt="Screenshot 2026-11-01 225402" src="https://github.com/user-attachments/assets/436ae838-be1b-44af-a506-b57fa93fefb7" />
 
-### 4. Expense Analysis
+### 5. Expense Analysis
 
 Displays category-wise expenditure, percentage distribution and highest expenditure.
 
 ![Expense Analysis]<img width="1915" height="1037" alt="Screenshot 2026-11-01 225511" src="https://github.com/user-attachments/assets/eaa96ab2-1174-42a2-be3d-0c1a91c73e71" />
 
-### 5. Monthly Report
+### 6. Monthly Report
 
 Displays monthly financial summaries and detailed expense records.
 
